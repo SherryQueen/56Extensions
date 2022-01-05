@@ -1,0 +1,22 @@
+{
+  "name": "56-markdown-pack",
+  "displayName": "56-markdown-pack",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "editorconfig.editorconfig",
+    "streetsidesoftware.code-spell-checker",
+    "k--kato.intellij-idea-keybindings",
+    "hancel.markdown-image",
+    "davidanson.vscode-markdownlint",
+    "yzhang.markdown-all-in-one",
+    "yzhang.dictionary-completion",
+    "shd101wyy.markdown-preview-enhanced"
+  ]
+}
