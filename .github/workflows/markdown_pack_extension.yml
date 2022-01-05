@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
-      - "56-markdown-pack/**"
+      - '56-markdown-pack/**'
   workflow_dispatch:
 jobs:
   build:
@@ -15,5 +15,5 @@ jobs:
           PUBLISHER_TOKEN: ${{ secrets.PUBLISHER_TOKEN }}
         run: |
           echo "Start release extension"
-          cd 56-markdown-pack && npx vsce publish -p $PUBLISHER_TOKEN
+          cd 56-markdown-pack && npx vsce publish patch -p $PUBLISHER_TOKEN
           echo "Release extension successfully"
