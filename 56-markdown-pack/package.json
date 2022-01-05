@@ -1,10 +1,16 @@
 {
   "name": "56-markdown-pack",
   "displayName": "56-markdown-pack",
-  "description": "",
-  "version": "0.0.1",
+  "description": "自用的的markdown插件集合包",
+  "version": "0.0.2",
+  "publisher": "56",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.63.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SherryQueen/56Extensions.git"
   },
   "categories": [
     "Extension Packs"
