@@ -16,6 +16,7 @@
     "Extension Packs"
   ],
   "extensionPack": [
+    "VisualStudioExptTeam.vscodeintellicode",
     "bradlc.vscode-tailwindcss",
     "ChakrounAnas.turbo-console-log",
     "christian-kohler.npm-intellisense",
