@@ -1,40 +1,46 @@
 {
-    "name": "56-fronted-pack",
-    "displayName": "56-fronted-pack",
-    "description": "",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "categories": [
-        "Extension Packs"
-    ],
-    "extensionPack": [ 
-        "bradlc.vscode-tailwindcss", 
-        "ChakrounAnas.turbo-console-log", 
-        "christian-kohler.npm-intellisense", 
-        "christian-kohler.path-intellisense", 
-        "dbaeumer.vscode-eslint", 
-        "donjayamanne.githistory", 
-        "eamodio.gitlens", 
-        "EditorConfig.EditorConfig", 
-        "eg2.vscode-npm-script", 
-        "esbenp.prettier-vscode", 
-        "formulahendry.code-runner", 
-        "IBM.output-colorizer", 
-        "jock.svg", 
-        "johnsoncodehk.volar", 
-        "k--kato.intellij-idea-keybindings", 
-        "kisstkondoros.vscode-codemetrics", 
-        "mhutchie.git-graph", 
-        "ms-vscode-remote.remote-ssh", 
-        "ms-vscode-remote.remote-ssh-edit", 
-        "naumovs.color-highlight", 
-        "sburg.vscode-javascript-booster", 
-        "steoates.autoimport", 
-        "streetsidesoftware.code-spell-checker", 
-        "stylelint.vscode-stylelint", 
-        "vincaslt.highlight-matching-tag", 
-        "yzhang.dictionary-completion"
-    ]
+  "name": "56-fronted-pack",
+  "displayName": "56-fronted-pack",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "56",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SherryQueen/56Extensions.git"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "bradlc.vscode-tailwindcss",
+    "ChakrounAnas.turbo-console-log",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "eg2.vscode-npm-script",
+    "esbenp.prettier-vscode",
+    "formulahendry.code-runner",
+    "IBM.output-colorizer",
+    "jock.svg",
+    "johnsoncodehk.volar",
+    "k--kato.intellij-idea-keybindings",
+    "kisstkondoros.vscode-codemetrics",
+    "mhutchie.git-graph",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "naumovs.color-highlight",
+    "sburg.vscode-javascript-booster",
+    "steoates.autoimport",
+    "streetsidesoftware.code-spell-checker",
+    "stylelint.vscode-stylelint",
+    "vincaslt.highlight-matching-tag",
+    "yzhang.dictionary-completion"
+  ]
 }
