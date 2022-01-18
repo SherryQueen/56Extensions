@@ -1,0 +1,19 @@
+name: CI
+on:
+  push:
+    branches: [main]
+    paths:
+      - '56-fronted-pack/**'
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Release Extension
+        env:
+          PUBLISHER_TOKEN: ${{ secrets.PUBLISHER_TOKEN }}
+        run: |
+          echo "Start release extension"
+          cd 56-fronted-pack && npx vsce publish patch -p $PUBLISHER_TOKEN
+          echo "Release extension successfully"
