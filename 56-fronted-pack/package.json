@@ -23,9 +23,7 @@
     "christian-kohler.path-intellisense",
     "dbaeumer.vscode-eslint",
     "donjayamanne.githistory",
-    "eamodio.gitlens",
-    "EditorConfig.EditorConfig",
-    "eg2.vscode-npm-script",
+    "maattdd.gitless",
     "esbenp.prettier-vscode",
     "formulahendry.code-runner",
     "IBM.output-colorizer",
@@ -40,8 +38,9 @@
     "sburg.vscode-javascript-booster",
     "steoates.autoimport",
     "streetsidesoftware.code-spell-checker",
-    "stylelint.vscode-stylelint",
     "vincaslt.highlight-matching-tag",
-    "yzhang.dictionary-completion"
+    "yzhang.dictionary-completion",
+    "Gruntfuggly.todo-tree",
+    "redhat.vscode-yaml"
   ]
 }
